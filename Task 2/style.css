@@ -1,0 +1,26 @@
+h1{
+    text-align: center;
+    color: black;  
+}
+
+h3{
+    text-align: center;
+    color: black;
+}
+
+body{
+    background-color: rgb(131, 224, 193);
+}
+
+.box {
+  width: 150px;
+  height: 150px;
+  background-color: #4CAF50;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px; 
+  font-family: sans-serif;
+}
+
