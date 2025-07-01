@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Vehicle CRUD App</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <h1>Vehicle CRUD Application</h1>
+
+  <form id="vehicleForm">
+    <input type="text" id="vehicleName" placeholder="Vehicle Name" required />
+    <input type="text" id="price" placeholder="Price (₹)" required />
+    <input type="text" id="image" placeholder="Image URL" required />
+    <textarea id="desc" placeholder="Vehicle Description"></textarea>
+    <input type="text" id="brand" placeholder="Brand" required />
+    <button type="submit">Add Vehicle</button>
+  </form>
+
+  <div class="vehicle-list" id="vehicleList"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
